@@ -10,7 +10,7 @@ es = Elasticsearch([{"host": "localhost", "port": 9200, "scheme": "http"}])
 index_name = "faces"
 
 # تنظیمات ربات تلگرام
-TELEGRAM_BOT_TOKEN = "7311454323:AAEsb3DSEgFB4QzZY6Bi_Nr1CXRGtkBA64I"
+TELEGRAM_BOT_TOKEN = "TELEGRAM_BOT_TOKEN"
 updater = Updater(token=TELEGRAM_BOT_TOKEN, use_context=True)
 dispatcher = updater.dispatcher
 
